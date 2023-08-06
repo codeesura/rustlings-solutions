@@ -8,7 +8,7 @@ Please note that these are suggested solutions and the beauty of programming is 
 
 ## About Rustlings
 
-Rustlings is a collection of small exercises to get you used to reading and writing Rust code. It is a fantastic way to get up to speed with the Rust language. The exercises are focused on different aspects of the language, from basic concepts like variable declaration and mutation, to more complex topics like ownership, borrowing, and lifetimes.
+[Rustlings](https://github.com/rust-lang/rustlings) is a collection of small exercises to get you used to reading and writing Rust code. It is a fantastic way to get up to speed with the Rust language. The exercises are focused on different aspects of the language, from basic concepts like variable declaration and mutation, to more complex topics like ownership, borrowing, and lifetimes.
 
 ## Using This Repository
 
