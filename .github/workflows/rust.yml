@@ -19,10 +19,9 @@ jobs:
         toolchain: stable
         override: true
 
-    - name: Install rustlings
-      run: cargo install rustlings
-
-    - name: Check Solutions
+    - name: Compile and Test Solutions
       run: |
-        cd exercises
-        rustlings verify
+        for exercise in exercises/*/*.rs; do
+          cargo build --manifest-path $exercise/Cargo.toml || exit 1
+          cargo test --manifest-path $exercise/Cargo.toml || exit 1
+        done
