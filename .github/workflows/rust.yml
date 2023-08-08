@@ -19,6 +19,9 @@ jobs:
         toolchain: stable
         override: true
 
+    - name: Install rustlings
+      run: cargo install rustlings
+
     - name: Check Solutions
       run: |
         cd exercises
