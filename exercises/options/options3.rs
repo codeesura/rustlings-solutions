@@ -1,8 +1,7 @@
 // options3.rs
 // Execute `rustlings hint options3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
+#[derive(Copy, Clone)]
 struct Point {
     x: i32,
     y: i32,
